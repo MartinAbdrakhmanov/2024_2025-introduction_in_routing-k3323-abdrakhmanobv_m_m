@@ -17,6 +17,8 @@ Date of finished: -
 ![](https://media.discordapp.net/attachments/805406684457074708/1285548622473199657/image.png?ex=66eaabf3&is=66e95a73&hm=ee82b18e09a09d898696869aebc0819ced4be303853e3ee7e5278181efe5955b&=&format=webp&quality=lossless&width=1146&height=143)
 
 PC1 ip
+
+
 ![](https://media.discordapp.net/attachments/805406684457074708/1285548517665800212/image.png?ex=66eaabda&is=66e95a5a&hm=b63f8c901b0d07c4e860b5e011f7cd2cf01cf01c51095ae262cc09ee1202a7e9&=&format=webp&quality=lossless&width=772&height=213)
 
 Ping PC1 --> R01
