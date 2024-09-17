@@ -10,6 +10,7 @@ Date of finished: -
 
 # Схема работы 
 ![Схема в draw.io](https://media.discordapp.net/attachments/805406684457074708/1285561922368049266/lab1.drawio.png?ex=66eab856&is=66e966d6&hm=22aabe8c82a38b4ae4de0dc7ccd39eba47627ebcaed1db7673d76404b0bd7c4b&=&format=webp&quality=lossless&width=513&height=501)
+
 У R01 ip в vlanах 10 и 20 - 10.10.10.2 и 10.10.20.2 соответсвенно. Свитчи получают ip по dhcp. 
 
 # Результаты пингов 
