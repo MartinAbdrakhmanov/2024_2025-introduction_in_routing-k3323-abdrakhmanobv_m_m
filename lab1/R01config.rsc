@@ -20,7 +20,7 @@ add address=10.10.20.2/24 interface=vlan20 network=10.10.20.0
 /ip dhcp-client
 add disabled=no interface=ether1
 /ip dhcp-server network
-add address=10.10.10.0/24 dns-server=8.8.8.8,8.8.4.4 gateway=10.10.10.2
-add address=10.10.20.0/24 dns-server=8.8.8.8,8.8.4.4 gateway=10.10.20.2
+add address=10.10.10.0/24 dns-server=1.1.1.1 gateway=10.10.10.2
+add address=10.10.20.0/24 dns-server=1.1.1.1 gateway=10.10.20.2
 /system identity
 set name=R01 
