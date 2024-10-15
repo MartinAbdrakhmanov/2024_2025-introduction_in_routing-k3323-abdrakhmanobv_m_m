@@ -9,7 +9,7 @@ Date of create: 15.10.2024
 Date of finished: - 
 
 # Схема работы 
-![Схема в draw.io](pics/lab3routingpgraph.drawio/png)
+![Схема в draw.io](pics/lab3routingpgraph.drawio.png)
 
 # Статус соседей 
 ### R01.SPB
