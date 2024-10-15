@@ -9,7 +9,7 @@ Date of create: 15.10.2024
 Date of finished: - 
 
 # Схема работы 
-![Схема в draw.io](pics/lab3orutingpgraph.drawio/png)
+![Схема в draw.io](pics/lab3routingpgraph.drawio/png)
 
 # Статус соседей 
 ### R01.SPB
@@ -34,9 +34,9 @@ Date of finished: -
 
 ### PRISM --> PC1
 
-![](pics/PrismPC.png)
+![](pics/lab3PrismPC.png)
 
 ### PC1 --> PRISM
 
-![](pics/PCPrism.png)
+![](pics/lab3PCPrism.png)
 
