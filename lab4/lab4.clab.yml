@@ -1,0 +1,52 @@
+name: lab4
+mgmt:
+    network: mgmt-net
+    ipv4-subnet: 192.168.100.0/24
+topology:
+    kinds:
+        vr-ros:
+            image: docker.io/vrnetlab/vr-routeros:6.47.9
+        linux:
+            image: ghcr.io/hellt/network-multitool  
+    nodes:
+        R01_SPB:
+            kind: vr-ros
+            mgmt-ipv4: 192.168.100.2 
+        R01_HKI:
+            kind: vr-ros
+            mgmt-ipv4: 192.168.100.3
+        R01_LBN:
+            kind: vr-ros
+            mgmt-ipv4: 192.168.100.4
+        R01_SVL:
+            kind: vr-ros
+            mgmt-ipv4: 192.168.100.5
+        R01_LND:
+            kind: vr-ros
+            mgmt-ipv4: 192.168.100.6
+        R01_NY:
+            kind: vr-ros
+            mgmt-ipv4: 192.168.100.7
+        PC1:
+            kind: linux
+            mgmt-ipv4: 192.168.100.8
+        PC2:
+            kind: linux
+            mgmt-ipv4: 192.168.100.9
+        PC3:
+            kind: linux
+            mgmt-ipv4: 192.168.100.10
+
+    links:
+        - endpoints: ["PC1:eth2", "R01_SPB:eth2"]
+        - endpoints: ["R01_SPB:eth3", "R01_HKI:eth2"]
+        - endpoints: ["R01_HKI:eth3", "R01_LBN:eth2"]
+        - endpoints: ["R01_LBN:eth3", "R01_SVL:eth2"]
+        - endpoints: ["R01_SVL:eth3", "PC3:eth2"]
+        - endpoints: ["R01_LBN:eth4", "R01_LND:eth2"]
+        - endpoints: ["R01_LND:eth3", "R01_NY:eth2"]
+        - endpoints: ["R01_NY:eth3", "PC2:eth2"]
+        - endpoints: ["R01_LND:eth4", "R01_HKI:eth4"]
+
+
+

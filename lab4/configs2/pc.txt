@@ -1,0 +1,1 @@
+ip addr add 10.10.66.X/24 dev eth2
